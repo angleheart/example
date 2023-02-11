@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("sojrnvsrobjvn");
+        printToConsole("sojrnvsrobjvn");
     }
+
+    private static void printToConsole(String s){
+	System.out.println(s);
+    }
+
 }
